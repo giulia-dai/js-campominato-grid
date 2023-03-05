@@ -26,7 +26,7 @@ html {
     width: 100%;
 }
 
-.btn {
+#btn {
     width: 100px;
     padding: 15px;
     border-radius: 50px;
@@ -41,15 +41,14 @@ h1 {
 }
 
 main {
-    padding: 10px 0;
+    margin: 0 auto;
     background-color: #7FFFD4;
-
-    
+    padding: 10px 0;
 }
 
 #grid{
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 650px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -61,19 +60,9 @@ main {
     border: 1px solid black;
 }
 
-.square.cliked{
-    background-color: lime;
-}
-
-
-
-
-
-
-
-
-
-
+.square.clicked{
+    background-color: plum;
+} 
 
 footer {
     height: 70px;
@@ -84,4 +73,12 @@ footer {
 .footer-text {
     padding: 15px;
     font-size: 18px;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: inline-block;
 }
